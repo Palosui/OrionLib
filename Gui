@@ -7,6 +7,8 @@ if game.PlaceId==7258239416 or game.PlaceId==4587545091 then --VietNamPiece
   loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/OUT-OLD-UNIVERSE/main/UNIVERSE%20OLD" ,true))()  
   elseif game.PlaceId==8534845015 then  
   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Sakura-Stand/main/ST'))()  
+elseif game.PlaceId == 14288176792 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/ConDL-Piece/main/First%20Sea"))()
   elseif not game.PlaceId ~= nil then  
   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/TestHub/main/Universal'))() --Universal  
   end
